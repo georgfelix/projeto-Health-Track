@@ -14,4 +14,28 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_celular" id="795E84BC-B6EE-9CD7-2D57-DEE2C780ED21">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:29:53 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="2ED6862F-124D-A976-AE63-5D76CC18622E">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:30:03 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

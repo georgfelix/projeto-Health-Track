@@ -14,4 +14,83 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_rua" id="8356BA62-8279-3870-AF09-7085594DD0BF">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:30:19 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero" id="E8AC6A08-E6C5-036B-E1D3-1F4DD835142E">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:30:30 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="ADA8FD2A-5C0B-8B0F-8319-FCDD55613138">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:30:41 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cep" id="AD839BB1-1BB5-E488-2E95-663B7CFD492A">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:30:52 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro_1" id="2E6AB9F5-51A0-19B0-4D19-0BF76ACC464A">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:31:03 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="4DBAB659-EE62-7FFB-360B-C701958CB720">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:31:28 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="23E31E89-0C9B-7E2A-6E7B-7D644072A169">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:31:37 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

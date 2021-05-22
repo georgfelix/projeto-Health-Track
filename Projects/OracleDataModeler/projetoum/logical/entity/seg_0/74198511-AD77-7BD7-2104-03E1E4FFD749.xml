@@ -14,4 +14,29 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="C3B9606E-5EDE-BEC9-BF03-C1B513860E51">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:21:05 UTC</createdTime>
+<generatorID>E5458610-99AD-756B-A5B7-434E3EF1C980</generatorID>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<referedAttribute>6A6E43E1-1D5D-C8E3-91DC-9FE8FA5DF587</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_apelido" id="94D4DC19-C09D-284E-7D25-567F370C0AF4">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:32:28 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>

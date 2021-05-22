@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pessoalizar" directorySegmentName="seg_0" id="E5458610-99AD-756B-A5B7-434E3EF1C980">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:21:05 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<sourcePk>E58BC518-5993-90A1-B47C-8F11C817BDA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B656DA1A-804C-E3D1-8641-4C20CE01A62D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>74198511-AD77-7BD7-2104-03E1E4FFD749</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

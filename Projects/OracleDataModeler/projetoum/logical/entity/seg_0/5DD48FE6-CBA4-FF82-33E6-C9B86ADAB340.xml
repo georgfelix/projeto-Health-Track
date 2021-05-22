@@ -14,4 +14,40 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="BBBB4A8F-09C3-6E09-0963-3D0107A197F1">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:22:15 UTC</createdTime>
+<generatorID>61992C5D-A5CC-BC09-F096-F74B8045D2BE</generatorID>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<referedAttribute>6A6E43E1-1D5D-C8E3-91DC-9FE8FA5DF587</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_empresa" id="86BB4656-453B-301B-31DF-48AD09739358">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:32:47 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_departamento" id="2BC3C56F-8DBA-F632-CABB-76BA71549426">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-14 20:33:05 UTC</createdTime>
+<ownerDesignName>projetoum</ownerDesignName>
+<engineerTo>
+<item key="3D386AF5-FD67-7F75-9902-8BC5FA9A5D71" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
