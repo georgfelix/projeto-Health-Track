@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00DB68B0-69DA-78AA-2A57-4B3476DA9CCC" name="T_DISCIPLINAv2">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:05:05 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_disciplina" id="070EA8EF-9E43-4076-D6CD-992332F87A6D">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:05:18 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_disciplina" id="754B385A-C619-996C-2015-7CA56F9DD1AD">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:05:28 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="261FA4D2-C1E3-BA1F-5582-34FCF9F63C61" name="T_DISCIPLINA PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:05:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>070EA8EF-9E43-4076-D6CD-992332F87A6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

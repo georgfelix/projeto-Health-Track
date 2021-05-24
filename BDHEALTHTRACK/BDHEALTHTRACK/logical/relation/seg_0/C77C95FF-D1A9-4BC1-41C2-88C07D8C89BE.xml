@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serjur" directorySegmentName="seg_0" id="C77C95FF-D1A9-4BC1-41C2-88C07D8C89BE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:32:12 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>9F8682FB-6FD8-F81F-A9E2-69429BAC6426</sourcePk>
+<arc>DEC8AECD-CC28-95DC-1104-729D6084B6C6</arc>
+<dominantRole>549EF48B-8765-FEE5-327C-7274BB7677DD</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>549EF48B-8765-FEE5-327C-7274BB7677DD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9A7D5B24-BDEF-4AFB-0DF9-27B3A383DCE1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

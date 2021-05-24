@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9A7D5B24-BDEF-4AFB-0DF9-27B3A383DCE1" name="T_PESSOA_JURIDICA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:30:15 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pessoa" id="28969EE6-E5AC-529E-03A5-CA65CC7CAA9B">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:32:12 UTC</createdTime>
+<generatorID>C77C95FF-D1A9-4BC1-41C2-88C07D8C89BE</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>2BDD66E2-0CD6-8D87-BC4C-199A63DB351F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="5AF41066-A3E2-CD89-7D7C-11063586329B">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:30:31 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_insc_estadial" id="3CFF5248-A0D4-E612-10E6-B600B3792ACB">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:30:43 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_ramo_atividade" id="6609AA78-3AE8-78D0-4662-5B7E2A6CED74">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:31:14 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC9F9BAC-1490-2409-FE73-76534C803512" name="T_PESSOA_JURIDICA PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:33:15 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28969EE6-E5AC-529E-03A5-CA65CC7CAA9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

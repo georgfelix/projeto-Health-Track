@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56CB46D6-43FA-5D98-FC47-B5047BE2B6A8" name="T_HOMEM">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 17:51:43 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_homem" id="ED4A2ABD-7B15-0AFC-8714-3C3A4DA00F7F">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 17:51:58 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_homem" id="F7BCC6EF-4492-53BC-8724-0D3B3D55AFF7">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 17:52:08 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4887A6DB-0587-0211-A13F-F23C031925FA" name="T_HOMEM PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 17:52:05 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED4A2ABD-7B15-0AFC-8714-3C3A4DA00F7F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

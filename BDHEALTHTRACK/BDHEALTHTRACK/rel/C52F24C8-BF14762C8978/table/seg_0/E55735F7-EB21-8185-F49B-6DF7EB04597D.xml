@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E55735F7-EB21-8185-F49B-6DF7EB04597D" name="T_MEDICO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F2B14A38-4704-FD6C-0787-ACFF1DD9433D</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="7AEE910D-EB12-88FC-E278-55CE5EA05C9F">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>15B8DE00-F72B-92C8-3DA5-5327EF6CF6AA</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_medico" id="82F2AFC1-75E7-05E6-43CA-53F683388F5D">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>939DE5AD-A8D9-70AD-A474-1A21BCF1D6ED</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_crm" id="D2A415B9-F5BB-B873-3E2C-B25FEB90EA76">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D2147E2A-8EF2-C025-D771-68D972D01511</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9FD89D8-6989-71BD-B554-E830F2AFAE0C" name="T_MEDICO_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>B074D223-A631-AA39-7DAA-101C539B71B9</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AEE910D-EB12-88FC-E278-55CE5EA05C9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

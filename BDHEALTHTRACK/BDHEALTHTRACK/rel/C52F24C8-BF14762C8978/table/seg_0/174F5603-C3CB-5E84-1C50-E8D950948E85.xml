@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="174F5603-C3CB-5E84-1C50-E8D950948E85" name="T_RELACIONAMENTO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>5EA24310-33A5-0329-6712-FFA796C1E574</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_FUNCIONARIOv1_nr_matricula" id="62048809-8A36-F519-8EE4-78F712DF56C5">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D56CF96A-EBC2-94C5-67EF-BD190EE9B2EB</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B41A1C3A-C896-DF17-D0D3-9924007A151F" referredColumn="8982F1D0-DFBE-9BD8-3615-03B85CCD17FC"/>
+</associations>
+</Column>
+<Column name="T_FUNCIONARIOv1_nr_matricula2" id="F1594E9A-6E23-2216-4606-ACB365D573BC">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>678A4546-A343-6307-22C1-492B1C2E4D61</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B96B8305-6F02-08C5-F15A-F67768E8D2B5" referredColumn="8982F1D0-DFBE-9BD8-3615-03B85CCD17FC"/>
+</associations>
+</Column>
+<Column name="dt_inicio_vinculo" id="6737E4D0-73F9-CCA4-AEA2-CAB7D5AB4A2A">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>3406760A-8BC1-1A11-5265-4F0DB2C690C6</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino_vinculo" id="2CCD0ED6-4A33-0B17-9A0A-502D6A397EE0">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F0464BC1-8FBE-3431-5440-6B0AB75D4C5C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF12B9CF-765A-0781-00B4-D76703DE43C9" name="T_RELACIONAMENTO_T_FUNCIONARIOv1_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>86154515-33C1-211A-F375-5BB1D45531D6</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62048809-8A36-F519-8EE4-78F712DF56C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75EFFD9C-D77B-142F-3CE6-06F5CA239925" name="T_RELACIONAMENTO_T_FUNCIONARIOv1_FKv2">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>EF369498-C1FB-825C-359E-FAFBA51FBE8F</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1594E9A-6E23-2216-4606-ACB365D573BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="06840CC3-CD08-25F0-917B-61063D4368EE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:12:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>DA999D15-74CE-CECE-D43B-D70DFC93241F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0B0201B-2EC2-16C9-5EB3-37CFB7A70C48</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C3B7CDD5-5438-820A-77A1-05C45F385540</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26A48546-2DAF-D42A-BD7C-AA3AAEEA7795" name="T_FUNCIONARIO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>E273C834-A1D7-40F4-84A2-F47F959E2D29</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="AE5825E9-F203-1CA2-9401-B1FC39BC4ECA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>481BEA74-733C-6279-E3DB-4F54603442E9</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FUNCIONARIO_nr_matricula" id="C20121E2-0FAB-DDA5-7D9B-EEA5974D80C7">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>98C10BB0-9BC9-BC32-349B-FFD9E2597832</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43DF3D6-707A-1DCA-2855-25BEC9DDB405" referredColumn="AE5825E9-F203-1CA2-9401-B1FC39BC4ECA"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="0CFA4662-089D-2A90-EB48-DD422870AAD9">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>558CAFBF-C779-4907-3A71-9643F92C5868</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="2D4A46D8-A76A-A63A-0E25-68E2AB95F7F1">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>5374195F-4985-5992-74B9-055A5544BB9B</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A775F95B-CC0F-E429-47B9-1E12B1A367AE" name="T_FUNCIONARIO_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F6427567-FDEA-C695-8D9C-2FCDFEA41E1C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE5825E9-F203-1CA2-9401-B1FC39BC4ECA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57FFFD54-2E59-9DEB-1649-BF33F34B8BC9" name="T_FUNCIONARIO_T_FUNCIONARIO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>FC5E9A68-D8DF-8888-1FA7-BF658824631A</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C20121E2-0FAB-DDA5-7D9B-EEA5974D80C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

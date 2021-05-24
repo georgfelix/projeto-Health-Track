@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3871C74C-E481-C76B-1BFB-7453A9443545" name="estudar">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_ESTUDANTE_nr_matricula" id="0ED89EC4-F926-D3D9-12F6-5E293AE63A87">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAD48C31-B5D5-600A-D6A9-09D3B5CF636D" referredColumn="22232D3B-F42D-C0FB-126A-B8478E7D17D8"/>
+</associations>
+</Column>
+<Column name="T_DISCIPLINA_cd_disciplina" id="F29F996D-71BB-DA33-72A5-5BA7D736D786">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4761DE0-3398-E675-07EA-F10F54C23853" referredColumn="6FCC783E-2950-906D-96B6-31BCD8A34411"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47279843-568A-F79D-9149-2AEC42C2CB43" name="estudar_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED89EC4-F926-D3D9-12F6-5E293AE63A87"/>
+<colUsage columnID="F29F996D-71BB-DA33-72A5-5BA7D736D786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C89C2B84-3920-FC15-CFF5-890DE6481C03" name="estudar_T_ESTUDANTE_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>7F96472F-81D5-133C-C8E3-41EAACF1FF83</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0ED89EC4-F926-D3D9-12F6-5E293AE63A87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F6EC2AF-016E-93E3-A281-1E168863EC9E" name="estudar_T_DISCIPLINA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>7F96472F-81D5-133C-C8E3-41EAACF1FF83</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F29F996D-71BB-DA33-72A5-5BA7D736D786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

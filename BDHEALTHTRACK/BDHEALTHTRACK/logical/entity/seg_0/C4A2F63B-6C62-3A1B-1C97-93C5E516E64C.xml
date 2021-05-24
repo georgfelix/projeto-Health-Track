@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4A2F63B-6C62-3A1B-1C97-93C5E516E64C" name="T_PROFESSOR_DISCIPLINA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:05:52 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="42A469D6-76F1-59B3-2DAB-37C1F74C25DF">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:06:34 UTC</createdTime>
+<generatorID>80120718-26CF-59F9-DBB6-FA2D85C06C93</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>CE536164-5331-22A5-CA78-B7F7AF0797FE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_disciplina" id="B0F070A3-D457-FC53-0EB2-CBDBEDDE31C8">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:07:12 UTC</createdTime>
+<generatorID>8D7D61B7-DD68-1820-846F-6FAB22645931</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>070EA8EF-9E43-4076-D6CD-992332F87A6D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="374F8107-F7E8-E7BE-176A-211589CEF172" name="T_PROFESSOR_DISCIPLINA PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:06:34 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42A469D6-76F1-59B3-2DAB-37C1F74C25DF</attributeRef>
+<attributeRef>B0F070A3-D457-FC53-0EB2-CBDBEDDE31C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

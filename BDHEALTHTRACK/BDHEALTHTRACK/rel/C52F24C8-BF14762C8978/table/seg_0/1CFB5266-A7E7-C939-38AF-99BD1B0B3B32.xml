@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CFB5266-A7E7-C939-38AF-99BD1B0B3B32" name="T_PRESCRICAO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>8431F086-8A8D-407D-EBA4-8AEBD0D77695</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_posologia" id="36BB1639-A0AE-21FA-9731-0CCD794873DE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>418B775E-33FC-0E91-482A-D9F37432018F</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_via" id="52921F26-5C48-E558-9FD2-5A2CFC55B784">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>13CE18FE-FA4E-2365-7EFB-EEAC066DEB30</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_uso" id="4D5BA5DA-4119-6977-3B3C-99A0A5B30CB7">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>942ABC01-94B8-66CB-97C6-CB2E77817297</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CONSULTA_cd_consulta" id="2BE22A41-D4DE-EF9A-DC9E-C210B3D9E4B1">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>96BE2C7A-5E34-397A-E3BE-95D8E917F2C6</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A7E3FB1-938D-4B44-6BAB-B93B1F8DC4DE" referredColumn="E343B122-CDE6-2263-DD2E-5E8F524F137C"/>
+</associations>
+</Column>
+<Column name="T_MEDICAMENTO_cd_medicamento" id="692317F5-5728-E2A4-C1F6-0917A07B08DD">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F1B25BA8-E62C-AB76-E59D-154A52DBFFC1</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A943A02A-DAB2-C62E-01CC-27AB7E6F269A" referredColumn="03A3726B-09ED-792A-F979-520C5EB39525"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47CCF538-380C-C40B-0EF5-26E5924CEDDD" name="T_PRESCRICAO_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>389578E1-D44F-8097-C798-E92DF8125C8A</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692317F5-5728-E2A4-C1F6-0917A07B08DD"/>
+<colUsage columnID="2BE22A41-D4DE-EF9A-DC9E-C210B3D9E4B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACF0F92-5908-5A03-14DC-830D6F839A48" name="T_PRESCRICAO_T_CONSULTA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>80041884-C9FE-2A53-72CD-8A7F9F4806DE</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE22A41-D4DE-EF9A-DC9E-C210B3D9E4B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA237730-FE1D-8787-8D3F-82358C06FD0A" name="T_PRESCRICAO_T_MEDICAMENTO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D3D3B508-8DC0-CBC9-BEC6-4F6C42AEFA97</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692317F5-5728-E2A4-C1F6-0917A07B08DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

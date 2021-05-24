@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="778D3731-2109-479B-96F0-5019CE2C3AD0" containerWithKeyObject="1C39E602-7589-E9AE-932D-27FDC3FB59AA" localFKIndex="6B65AB59-E94B-E802-AF7D-3845596859A0" name="T_PEDIDOv2_T_PESSOA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>60B07228-85BC-A57D-7152-66A29928A013</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_PESSOA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>543A0F30-7CC6-83AD-C2C3-7CC46749167F</referredTableID>
+<keyObject>E0DC02EF-825D-70FE-5206-DB05642CBF17</keyObject>
+<referredKeyID>E0DC02EF-825D-70FE-5206-DB05642CBF17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

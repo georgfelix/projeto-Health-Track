@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6593C6CF-207A-4745-8B40-7C8E36D0E1C8" name="T_MULHER">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C1397EA1-53CB-0F2C-962B-2CF6E502EC1C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_mulher" id="5B41CE5B-3091-6CD2-195D-AFCD929DB8B7">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>74B62F61-F20D-2FEA-EC48-72C16EE93BDA</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_mulher" id="3BD8707F-4647-3774-DA39-7B100C229065">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>3247CEEF-7D22-A6A8-866F-199C67EB31B4</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_HOMEM_cd_homem" id="5B85ACB9-258A-6619-A20B-88A40CBC2A36">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F7EC77FC-7DBF-E42D-2AE1-D56F70908188</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4B5B797-263C-40AA-9E20-051CCB769B35" referredColumn="0C0B6212-9194-B7B5-B13B-8A15CC5CEC03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEC636C8-3C84-202E-5C4F-0C41F5DC12BC" name="T_MULHER_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>5D257FAF-3707-54E6-EB0F-74272BE940AB</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B41CE5B-3091-6CD2-195D-AFCD929DB8B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96E05AE1-9B96-B711-5520-55D8029A23F8" name="T_MULHER__IDX">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BA3CFB96-3208-A63A-FE5D-B11BD927DC3B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5B85ACB9-258A-6619-A20B-88A40CBC2A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB367E87-949D-16DF-67E3-CE5F5D09D90B" name="T_MULHER_T_HOMEM_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>BA3CFB96-3208-A63A-FE5D-B11BD927DC3B</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B85ACB9-258A-6619-A20B-88A40CBC2A36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EA24310-33A5-0329-6712-FFA796C1E574" name="T_RELACIONAMENTO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 14:05:03 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="D56CF96A-EBC2-94C5-67EF-BD190EE9B2EB">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 14:06:32 UTC</createdTime>
+<generatorID>86154515-33C1-211A-F375-5BB1D45531D6</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>F54475E3-893A-6F6F-A826-B4E1DE807BB8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula1" id="678A4546-A343-6307-22C1-492B1C2E4D61">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 14:07:10 UTC</createdTime>
+<generatorID>EF369498-C1FB-825C-359E-FAFBA51FBE8F</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>F54475E3-893A-6F6F-A826-B4E1DE807BB8</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_vinculo" id="3406760A-8BC1-1A11-5265-4F0DB2C690C6">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 14:05:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino_vinculo" id="F0464BC1-8FBE-3431-5440-6B0AB75D4C5C">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 14:05:41 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pedir" directorySegmentName="seg_0" id="60B07228-85BC-A57D-7152-66A29928A013">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:14:45 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>9F8682FB-6FD8-F81F-A9E2-69429BAC6426</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>549EF48B-8765-FEE5-327C-7274BB7677DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>369415EB-C207-8864-A2E9-9D41D93B90EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

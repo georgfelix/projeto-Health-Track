@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDE96514-5393-8732-40D8-E13ED231D493" name="T_GERENTE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:00:20 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_gerente" id="D71905AC-A856-F6F4-A3E5-FA4C72C15F3B">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:00:55 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_gerente" id="8769AA8B-CC70-CE2B-58A2-2016DAC871DC">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:01:06 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_dpto" id="34B3C2D4-22B1-0ADD-9ACA-54C1FC9DE594">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:02:08 UTC</createdTime>
+<generatorID>647DC229-7949-67E7-D3E2-73B2918289C2</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>116E44B6-F289-1454-3855-4238A2A0C442</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C786C034-CA17-D222-7BA8-475F9CE0521C" name="T_GERENTE PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 18:01:02 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D71905AC-A856-F6F4-A3E5-FA4C72C15F3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

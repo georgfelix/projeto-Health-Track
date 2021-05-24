@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1ABA3726-0C52-900F-0F1F-E71192728EF6" name="T_CONSULTA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>BA182A0D-985C-7584-D534-73AA8455872B</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_consulta" id="E343B122-CDE6-2263-DD2E-5E8F524F137C">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D7870AD3-9181-9203-01B5-AA66EF36690C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MEDICO_nr_matricula" id="81D01E24-E1BA-EE4A-6546-EE89496ABF66">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>0C7EBA87-DD9A-DC58-095B-4C6176546A3E</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FC800BC-E71F-B6C2-ACC7-C21DD5A5B582" referredColumn="7AEE910D-EB12-88FC-E278-55CE5EA05C9F"/>
+</associations>
+</Column>
+<Column name="T_PACIENTE_cd_paciente" id="AACBFB4E-1A7F-8211-3AA2-3CE0578C2780">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F5B03EE7-EDFB-82BA-8252-2339A1449558</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95B1A3C9-2E3A-53F1-0727-CEEA270B68DA" referredColumn="7E554DF8-543E-4338-2084-2577E63F8EBA"/>
+</associations>
+</Column>
+<Column name="dt_consulta" id="4817B319-F93F-45E8-B4A3-C71C225C3A10">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F502586D-1B8D-EFA7-1631-D06C04B09CA3</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_consultorio" id="9377A8F9-CF71-7B89-68A4-C449C4A4CC9A">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>0DACB7E6-63F8-2FFC-8A47-D60AB2ED8DD0</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5504A4C7-EF91-0639-C18D-57215D9EC509" name="T_CONSULTA_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>EEFD51EB-86A9-A548-936A-EBE372DBA8D1</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E343B122-CDE6-2263-DD2E-5E8F524F137C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65628330-4AFC-F569-9E1F-CE04858C7B02" name="T_CONSULTA_T_MEDICO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D39126B1-7CEC-CEBF-7F7A-A7C4FB90F691</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81D01E24-E1BA-EE4A-6546-EE89496ABF66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D3DF00D-2645-F219-5B9C-71A7B80C0A19" name="T_CONSULTA_T_PACIENTE_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>EB134F77-F77C-F86F-2EA4-1FB039ED6E01</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AACBFB4E-1A7F-8211-3AA2-3CE0578C2780"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

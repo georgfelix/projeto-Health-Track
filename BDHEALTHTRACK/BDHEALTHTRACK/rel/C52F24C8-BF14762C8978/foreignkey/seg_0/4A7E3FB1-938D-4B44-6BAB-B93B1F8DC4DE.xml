@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A7E3FB1-938D-4B44-6BAB-B93B1F8DC4DE" containerWithKeyObject="1CFB5266-A7E7-C939-38AF-99BD1B0B3B32" localFKIndex="7ACF0F92-5908-5A03-14DC-830D6F839A48" name="T_PRESCRICAO_T_CONSULTA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>80041884-C9FE-2A53-72CD-8A7F9F4806DE</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_CONSULTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1ABA3726-0C52-900F-0F1F-E71192728EF6</referredTableID>
+<keyObject>5504A4C7-EF91-0639-C18D-57215D9EC509</keyObject>
+<referredKeyID>5504A4C7-EF91-0639-C18D-57215D9EC509</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_consulta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

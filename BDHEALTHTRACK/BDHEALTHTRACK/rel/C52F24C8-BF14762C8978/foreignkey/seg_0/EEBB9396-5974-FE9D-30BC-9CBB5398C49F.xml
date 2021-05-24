@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EEBB9396-5974-FE9D-30BC-9CBB5398C49F" containerWithKeyObject="9888FCD3-5F02-D643-CA10-7301F6B071CC" localFKIndex="D8B9C8D3-895F-A1AA-8BAF-6FE5699998ED" name="T_DEPENDENTE_T_SIP_FUNCIONARIO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>06840CC3-CD08-25F0-917B-61063D4368EE</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_SIP_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3296993D-17FE-9865-DF8E-AFB508A24CD2</referredTableID>
+<keyObject>BB559C32-1DA6-0808-6468-AF2CFB3A8633</keyObject>
+<referredKeyID>BB559C32-1DA6-0808-6468-AF2CFB3A8633</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_maricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

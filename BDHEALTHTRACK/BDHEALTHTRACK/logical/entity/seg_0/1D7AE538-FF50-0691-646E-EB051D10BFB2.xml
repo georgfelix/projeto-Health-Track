@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D7AE538-FF50-0691-646E-EB051D10BFB2" name="T_ITEM_PEDIDO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:16:59 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_pedido1" id="F4A31209-89B8-C6D8-D556-C7BB111118D0">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:19:04 UTC</createdTime>
+<generatorID>C93A88D3-D4FD-73E8-BF81-CB28358BB33C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>B58C9F4F-4AF8-8A51-E79E-BB5A0D9C0E08</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_pedido" id="5E7AE8EF-4D1A-0405-8820-1CCC33C1FD71">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:17:34 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_unitario" id="BB62591B-61E6-9456-B54A-DE0AC6745F9D">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:18:23 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="BFA1978E-ACF6-456F-928E-93A1CFA1000E">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:45:04 UTC</createdTime>
+<generatorID>EEB5FD92-6DE2-DC5A-F39D-C54DEA0E8A9D</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>09670AA7-A999-336F-A68C-D279E009396D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B7C38DA-6541-7FF7-341A-62CA90058BEB" name="T_ITEM_PEDIDO PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:20:03 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F4A31209-89B8-C6D8-D556-C7BB111118D0</attributeRef>
+<attributeRef>BFA1978E-ACF6-456F-928E-93A1CFA1000E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

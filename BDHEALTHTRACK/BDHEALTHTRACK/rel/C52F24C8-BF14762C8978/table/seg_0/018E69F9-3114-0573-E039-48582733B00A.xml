@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="018E69F9-3114-0573-E039-48582733B00A" name="T_ITEM_PEDIDO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>1D7AE538-FF50-0691-646E-EB051D10BFB2</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PEDIDOv2_cd_pedido" id="01517AD8-2D41-CC67-93AE-F7E422722621">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F4A31209-89B8-C6D8-D556-C7BB111118D0</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="800A2C28-2816-F57E-5974-9577CBD09617" referredColumn="88F2DD94-14CA-402B-61A5-7542F93F0501"/>
+</associations>
+</Column>
+<Column name="qt_pedido" id="348B34E7-FF92-7AF9-2F26-8647708F3D76">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>5E7AE8EF-4D1A-0405-8820-1CCC33C1FD71</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_unitario" id="2BE7E5F1-F4D0-A748-56AD-8DF7A85C74A7">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>BB62591B-61E6-9456-B54A-DE0AC6745F9D</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PRODUTO_cd_produto" id="262B0804-4A35-A1CB-E624-510DE670E61D">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>BFA1978E-ACF6-456F-928E-93A1CFA1000E</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="996AC111-60AB-2F87-F025-E37E77E02499" referredColumn="68F057F4-1111-221A-DAA2-493E8223C289"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D77ACD34-7B19-52F7-1238-E89C4377984C" name="T_ITEM_PEDIDO_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>4B7C38DA-6541-7FF7-341A-62CA90058BEB</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01517AD8-2D41-CC67-93AE-F7E422722621"/>
+<colUsage columnID="262B0804-4A35-A1CB-E624-510DE670E61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDDF6DF8-A575-1A57-B6A0-3B347CA2020B" name="T_ITEM_PEDIDO_T_PEDIDOv2_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C93A88D3-D4FD-73E8-BF81-CB28358BB33C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01517AD8-2D41-CC67-93AE-F7E422722621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A66A022-93F4-2E6F-2B8A-673EC73A8134" name="T_ITEM_PEDIDO_T_PRODUTO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>EEB5FD92-6DE2-DC5A-F39D-C54DEA0E8A9D</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="262B0804-4A35-A1CB-E624-510DE670E61D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35504336-9DDC-7DBB-EADA-85CC22BA492D" name="T_PROFESSOR_DISCIPLINA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C4A2F63B-6C62-3A1B-1C97-93C5E516E64C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PROFESSOR_nr_matricula" id="1C7D2B00-2E91-4C0C-5ECD-B42E19E8943D">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>42A469D6-76F1-59B3-2DAB-37C1F74C25DF</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C2AB591-82B1-DF18-CCAC-1D48DBF88FCD" referredColumn="CDF29D73-4010-5EAB-6435-8F99C6973FD5"/>
+</associations>
+</Column>
+<Column name="T_DISCIPLINAv2_cd_disciplina" id="C9B12E60-090C-D183-1B41-205B75CA7222">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>B0F070A3-D457-FC53-0EB2-CBDBEDDE31C8</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4C52151-BB17-2950-5A37-F76E2C2D8F59" referredColumn="2C83D701-78A1-7A48-A4D5-26FC3CFE5BEE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8C3D98F-5AB7-AA38-6957-11A0BB4B5A5D" name="T_PROFESSOR_DISCIPLINA_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>374F8107-F7E8-E7BE-176A-211589CEF172</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7D2B00-2E91-4C0C-5ECD-B42E19E8943D"/>
+<colUsage columnID="C9B12E60-090C-D183-1B41-205B75CA7222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52339363-5F42-66D0-B5C0-935399700ABB" name="T_PROFESSOR_DISCIPLINA_T_PROFESSOR_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>80120718-26CF-59F9-DBB6-FA2D85C06C93</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C7D2B00-2E91-4C0C-5ECD-B42E19E8943D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AD82BBC-169C-BC62-B825-8DADF749559D" name="T_PROFESSOR_DISCIPLINA_T_DISCIPLINAv2_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>8D7D61B7-DD68-1820-846F-6FAB22645931</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9B12E60-090C-D183-1B41-205B75CA7222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

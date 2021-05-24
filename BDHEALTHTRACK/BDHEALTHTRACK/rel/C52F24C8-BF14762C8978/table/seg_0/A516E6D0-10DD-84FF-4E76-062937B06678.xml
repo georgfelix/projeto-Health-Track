@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A516E6D0-10DD-84FF-4E76-062937B06678" name="T_GERENTE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>EDE96514-5393-8732-40D8-E13ED231D493</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_gerente" id="B5E40135-8248-3A4B-18D7-5F474878B797">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>D71905AC-A856-F6F4-A3E5-FA4C72C15F3B</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_gerente" id="41744B03-6BD8-7F28-DB66-DC825290DB69">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>8769AA8B-CC70-CE2B-58A2-2016DAC871DC</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_DEPTO_cd_dpto" id="A4BBC4F9-1F8B-87D6-03E9-FD256F48EC2C">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>34B3C2D4-22B1-0ADD-9ACA-54C1FC9DE594</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12AC81D3-43E2-AAA8-1326-7FB29C999282" referredColumn="4F9EF8DF-E10F-4A26-55A5-2AB07C45C99E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC83A8BD-0A57-0266-6F7F-7899D1F83D94" name="T_GERENTE_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C786C034-CA17-D222-7BA8-475F9CE0521C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5E40135-8248-3A4B-18D7-5F474878B797"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98975804-D2C7-BD9B-1A2B-152C8ABD316D" name="T_GERENTE__IDX">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>647DC229-7949-67E7-D3E2-73B2918289C2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A4BBC4F9-1F8B-87D6-03E9-FD256F48EC2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82B9A180-632A-6115-05AF-549DFD92B71F" name="T_GERENTE_T_DEPTO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>647DC229-7949-67E7-D3E2-73B2918289C2</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4BBC4F9-1F8B-87D6-03E9-FD256F48EC2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

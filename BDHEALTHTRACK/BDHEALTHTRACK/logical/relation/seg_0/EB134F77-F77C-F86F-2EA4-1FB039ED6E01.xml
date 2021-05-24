@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="submeter" directorySegmentName="seg_0" id="EB134F77-F77C-F86F-2EA4-1FB039ED6E01">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 19:08:49 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>D0FEC5BF-E423-8088-6C33-54BA7F6B59B3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B97B5DA1-89F9-B012-E0D3-5A6083500866</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA182A0D-985C-7584-D534-73AA8455872B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

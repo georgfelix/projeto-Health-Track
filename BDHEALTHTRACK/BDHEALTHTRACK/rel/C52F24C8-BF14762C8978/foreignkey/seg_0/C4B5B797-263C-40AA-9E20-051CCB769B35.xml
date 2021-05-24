@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4B5B797-263C-40AA-9E20-051CCB769B35" containerWithKeyObject="6593C6CF-207A-4745-8B40-7C8E36D0E1C8" localFKIndex="BB367E87-949D-16DF-67E3-CE5F5D09D90B" name="T_MULHER_T_HOMEM_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>BA3CFB96-3208-A63A-FE5D-B11BD927DC3B</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_HOMEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8B8D7B28-871C-4051-1C58-FDC09AF7F361</referredTableID>
+<keyObject>F4636687-9F83-A90C-CCC9-0A34DD3C6457</keyObject>
+<referredKeyID>F4636687-9F83-A90C-CCC9-0A34DD3C6457</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cd_homem</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

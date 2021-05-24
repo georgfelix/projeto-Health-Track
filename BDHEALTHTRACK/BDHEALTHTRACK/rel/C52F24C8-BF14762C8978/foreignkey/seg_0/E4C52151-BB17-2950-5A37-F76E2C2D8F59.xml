@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4C52151-BB17-2950-5A37-F76E2C2D8F59" containerWithKeyObject="35504336-9DDC-7DBB-EADA-85CC22BA492D" localFKIndex="4AD82BBC-169C-BC62-B825-8DADF749559D" name="T_PROFESSOR_DISCIPLINA_T_DISCIPLINAv2_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>8D7D61B7-DD68-1820-846F-6FAB22645931</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_DISCIPLINAv2</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B6DABD3-3C1C-0870-C613-6E43696A88F9</referredTableID>
+<keyObject>E062502F-93B7-FCF3-8F90-63F02CB375EA</keyObject>
+<referredKeyID>E062502F-93B7-FCF3-8F90-63F02CB375EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_disciplina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

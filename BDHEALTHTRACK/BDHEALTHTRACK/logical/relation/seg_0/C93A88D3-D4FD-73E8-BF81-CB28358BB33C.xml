@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="pediritem" directorySegmentName="seg_0" id="C93A88D3-D4FD-73E8-BF81-CB28358BB33C">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 13:19:04 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>E15B53ED-79A6-5882-3B9F-EBD250958D8D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>369415EB-C207-8864-A2E9-9D41D93B90EB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D7AE538-FF50-0691-646E-EB051D10BFB2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

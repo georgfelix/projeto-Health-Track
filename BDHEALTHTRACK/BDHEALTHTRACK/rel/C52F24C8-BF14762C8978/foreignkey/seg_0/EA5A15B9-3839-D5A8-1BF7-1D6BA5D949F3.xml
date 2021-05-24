@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EA5A15B9-3839-D5A8-1BF7-1D6BA5D949F3" containerWithKeyObject="57A59FEB-AB9A-5A05-2465-A6DEB9A1393C" localFKIndex="7371F852-96C6-3894-A2C9-C75CE6805E01" name="T_PESSOA_FISICA_T_PESSOA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>00D92407-7F6A-55D2-7AEB-F3134B6887CD</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_PESSOA</referredTableLongName>
+<arc>58730127-74E8-5D14-8F56-F25AEE19D012</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>543A0F30-7CC6-83AD-C2C3-7CC46749167F</referredTableID>
+<keyObject>E0DC02EF-825D-70FE-5206-DB05642CBF17</keyObject>
+<referredKeyID>E0DC02EF-825D-70FE-5206-DB05642CBF17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

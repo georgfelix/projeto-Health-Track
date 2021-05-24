@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8431F086-8A8D-407D-EBA4-8AEBD0D77695" name="T_PRESCRICAO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:47:57 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_posologia" id="418B775E-33FC-0E91-482A-D9F37432018F">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:48:10 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_via" id="13CE18FE-FA4E-2365-7EFB-EEAC066DEB30">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:48:41 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_uso" id="942ABC01-94B8-66CB-97C6-CB2E77817297">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:49:00 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_consulta" id="96BE2C7A-5E34-397A-E3BE-95D8E917F2C6">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:49:48 UTC</createdTime>
+<generatorID>80041884-C9FE-2A53-72CD-8A7F9F4806DE</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>D7870AD3-9181-9203-01B5-AA66EF36690C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medicamento" id="F1B25BA8-E62C-AB76-E59D-154A52DBFFC1">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:52:40 UTC</createdTime>
+<generatorID>D3D3B508-8DC0-CBC9-BEC6-4F6C42AEFA97</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<referedAttribute>89EFDEA5-3625-EF18-654C-F128091C05AB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="389578E1-D44F-8097-C798-E92DF8125C8A" name="T_PRESCRICAO PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:51:48 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1B25BA8-E62C-AB76-E59D-154A52DBFFC1</attributeRef>
+<attributeRef>96BE2C7A-5E34-397A-E3BE-95D8E917F2C6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

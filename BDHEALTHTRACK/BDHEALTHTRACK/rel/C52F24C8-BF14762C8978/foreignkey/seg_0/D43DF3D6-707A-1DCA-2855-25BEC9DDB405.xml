@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D43DF3D6-707A-1DCA-2855-25BEC9DDB405" containerWithKeyObject="26A48546-2DAF-D42A-BD7C-AA3AAEEA7795" localFKIndex="57FFFD54-2E59-9DEB-1649-BF33F34B8BC9" name="T_FUNCIONARIO_T_FUNCIONARIO_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>FC5E9A68-D8DF-8888-1FA7-BF658824631A</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26A48546-2DAF-D42A-BD7C-AA3AAEEA7795</referredTableID>
+<keyObject>A775F95B-CC0F-E429-47B9-1E12B1A367AE</keyObject>
+<referredKeyID>A775F95B-CC0F-E429-47B9-1E12B1A367AE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>nr_matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

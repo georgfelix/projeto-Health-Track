@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57A59FEB-AB9A-5A05-2465-A6DEB9A1393C" name="T_PESSOA_FISICA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>9D738F7D-1B4B-15A3-E284-68A910F3D9A9</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PESSOA_cd_pessoa" id="2F644D8D-8BA6-6683-9F9B-2FF0F381EFA6">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>170D3C42-68A3-9DD2-AB19-6C7CBB20BF5A</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA5A15B9-3839-D5A8-1BF7-1D6BA5D949F3" referredColumn="C39F3AEE-6BD8-BF20-E48D-21840DDFDB3A"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="6E6FB896-7A69-6840-F3D7-0D3D052CE464">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>F5FC8831-0CD4-D861-163F-A603F8F948DF</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="8BEE0AD8-6000-06A6-B06F-BD149B33B6F3">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>0D071F6F-F38F-0336-D3EA-B78556AC8A0C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nasc" id="7FCAC99F-54B4-062D-417F-81D630039D0C">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>7C798851-AA6E-D884-991D-EC1370F9CA01</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="73F670FA-3299-A3BE-DDAB-EB82B1F46C01">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>6318563E-F21A-BCB1-32AA-6E9EC2FC22A9</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B382D441-F664-079E-AAB7-D0B97697DFFB" name="T_PESSOA_FISICA_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C5648DE0-D92A-1E05-6BFF-5B2B9067CB40</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F644D8D-8BA6-6683-9F9B-2FF0F381EFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7371F852-96C6-3894-A2C9-C75CE6805E01" name="T_PESSOA_FISICA_T_PESSOA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>00D92407-7F6A-55D2-7AEB-F3134B6887CD</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F644D8D-8BA6-6683-9F9B-2FF0F381EFA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

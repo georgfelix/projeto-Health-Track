@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prescrever" directorySegmentName="seg_0" id="80041884-C9FE-2A53-72CD-8A7F9F4806DE">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:49:48 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>EEFD51EB-86A9-A548-936A-EBE372DBA8D1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA182A0D-985C-7584-D534-73AA8455872B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8431F086-8A8D-407D-EBA4-8AEBD0D77695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

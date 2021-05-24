@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serdisciplinado" directorySegmentName="seg_0" id="8D7D61B7-DD68-1820-846F-6FAB22645931">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 12:07:12 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>261FA4D2-C1E3-BA1F-5582-34FCF9F63C61</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00DB68B0-69DA-78AA-2A57-4B3476DA9CCC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4A2F63B-6C62-3A1B-1C97-93C5E516E64C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

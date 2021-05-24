@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C2AB591-82B1-DF18-CCAC-1D48DBF88FCD" containerWithKeyObject="35504336-9DDC-7DBB-EADA-85CC22BA492D" localFKIndex="52339363-5F42-66D0-B5C0-935399700ABB" name="T_PROFESSOR_DISCIPLINA_T_PROFESSOR_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>80120718-26CF-59F9-DBB6-FA2D85C06C93</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<referredTableLongName>T_PROFESSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D1EDC5E-8989-5B40-BFED-2DDB600B932E</referredTableID>
+<keyObject>CDD4985F-4C33-2AB6-945E-8E4229194CEF</keyObject>
+<referredKeyID>CDD4985F-4C33-2AB6-945E-8E4229194CEF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

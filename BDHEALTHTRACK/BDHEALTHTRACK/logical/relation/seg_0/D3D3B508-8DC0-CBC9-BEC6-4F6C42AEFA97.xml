@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="prescrito" directorySegmentName="seg_0" id="D3D3B508-8DC0-CBC9-BEC6-4F6C42AEFA97">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-23 11:52:40 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>BCCE505B-91D1-037E-5AC3-AF3C632F65BF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54E95674-A13A-3EA1-6500-D650CB9D1CD9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8431F086-8A8D-407D-EBA4-8AEBD0D77695</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

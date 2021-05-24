@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="casar" directorySegmentName="seg_0" id="BA3CFB96-3208-A63A-FE5D-B11BD927DC3B">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-22 17:53:38 UTC</createdTime>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<engineerTo>
+<item key="C52F24C8-1554-7CBB-C33D-BF14762C8978" value="true"/>
+</engineerTo>
+<sourcePk>4887A6DB-0587-0211-A13F-F23C031925FA</sourcePk>
+<dominantRole>56CB46D6-43FA-5D98-FC47-B5047BE2B6A8</dominantRole>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>56CB46D6-43FA-5D98-FC47-B5047BE2B6A8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C1397EA1-53CB-0F2C-962B-2CF6E502EC1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

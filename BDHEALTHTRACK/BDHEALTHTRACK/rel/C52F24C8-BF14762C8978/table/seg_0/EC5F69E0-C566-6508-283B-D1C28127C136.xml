@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5F69E0-C566-6508-283B-D1C28127C136" name="T_PEDIDO">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>06C6902B-C247-3F3D-E17F-81546A3D4579</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_pedido" id="C250A39C-A742-9AE4-15BE-30E842337C98">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>B758F884-F42D-8B4B-7D09-A6F9C6067728</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pedido" id="66F3405B-7E23-A4AE-CE22-8EF0427F9F27">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>908C9D65-F07C-A63E-E28D-A99C2628A387</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pedido" id="AEEFB9D3-38E9-9FF7-A7E7-7084A00300AA">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>5EC427E1-577D-632E-238A-1686B7CFF184</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CLIENTE_cd_cliente" id="0B9C1E69-2D83-A642-24A0-C448648F9A0A">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>C49B79D0-9B3E-0C53-42CD-C8E4BDA0348C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3068904D-EEAE-3330-3783-1498FB2706E1" referredColumn="DD144FB3-2934-3A52-0AF8-914BF5C79017"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4705C535-52A2-607E-0859-48F344FB0AA7" name="T_PEDIDO_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>62E17ED9-6547-5072-B25C-88D0ABA2B43C</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C250A39C-A742-9AE4-15BE-30E842337C98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94D82064-2436-CECD-1B3A-314A346F481B" name="T_PEDIDO_T_CLIENTE_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>1046FAA2-8F77-1352-86E6-7C6EF525A050</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B9C1E69-2D83-A642-24A0-C448648F9A0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

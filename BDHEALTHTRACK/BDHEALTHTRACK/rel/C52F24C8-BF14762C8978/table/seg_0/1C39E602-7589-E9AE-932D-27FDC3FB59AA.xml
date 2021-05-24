@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C39E602-7589-E9AE-932D-27FDC3FB59AA" name="T_PEDIDOv2">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>369415EB-C207-8864-A2E9-9D41D93B90EB</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pedido" id="88F2DD94-14CA-402B-61A5-7542F93F0501">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>B58C9F4F-4AF8-8A51-E79E-BB5A0D9C0E08</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PESSOA_cd_pessoa" id="B3A55AB9-7C40-69E4-67CE-EEF8D41621AD">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>791FDBCB-491C-4C29-78CC-66FA25076E7E</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="778D3731-2109-479B-96F0-5019CE2C3AD0" referredColumn="C39F3AEE-6BD8-BF20-E48D-21840DDFDB3A"/>
+</associations>
+</Column>
+<Column name="dt_pedido" id="072708EA-8B98-BC36-A511-20D148A74821">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>CCCCB884-99CA-5255-8EC1-2254E8061F58</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pedido" id="A0B79E00-2272-1DB0-C21B-80BE46127DF6">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>A5BDC251-4A4A-9F60-C01F-58BA566E048A</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90920C10-39C8-2406-4907-B72790FA5936" name="T_PEDIDOv2_PK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>E15B53ED-79A6-5882-3B9F-EBD250958D8D</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88F2DD94-14CA-402B-61A5-7542F93F0501"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B65AB59-E94B-E802-AF7D-3845596859A0" name="T_PEDIDOv2_T_PESSOA_FK">
+<createdBy>georg</createdBy>
+<createdTime>2021-05-24 21:36:26 UTC</createdTime>
+<generatorID>60B07228-85BC-A57D-7152-66A29928A013</generatorID>
+<ownerDesignName>BDHEALTHTRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3A55AB9-7C40-69E4-67CE-EEF8D41621AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
