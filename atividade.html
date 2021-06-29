@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title>Propriedades de background em CSS - Linha de Código</title>
+ 
+    <link rel="stylesheet" type="text/css"  href="./css/style.css" />
+
+    <meta name="keywords" content="corrida, bicicleta saude" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <!-- Inclusão ao suporte de ícones do Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="./js/meujava.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <title>Health Track</title>
+
+</head>
+<body>
+<!--MENU____________________________________________ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a href="/index.html">
+      <img src="/image/logo.jpg" alt="Logo Health Track" 
+    </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/minhasatividades.html">Atividades</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/termo.html">Termo</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" id=formprocurar type="search" placeholder="procurar" aria-label="Search">
+          
+          <a class="btn btn-warning" href="/nadaencontrado.html" role="button">Procurar</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h4> Atividade </h4>
+  <!--CORPO____________________________________________ -->
+  <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/image/mapa.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/image/carabike.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/image/bikemorro.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!--Fim do carrosel-->
+  <table class="table" id=tabela>
+    <thead>
+      <tr>
+        <th scope="col" class="bi bi-heart"></th>
+        <th scope="col" class="bi bi-chat-text"></th>
+        <th scope="col" class="bi bi-camera-fill"></th>
+        <th scope="col" class="bi bi-trash"></th>
+        <th scope="col" class="bi bi-pencil-square"></th>
+        <th scope="col" class="bi bi-share-fill"></th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th scope="row">Corrida de Bicicleta</th>
+          <td></td>
+          <td></td>
+          <td>Araxá, MG</td>
+        </tr>
+        
+      </tbody>
+  </table>
+  <!--Fim da tabela-->
+
+  <div class="accordion" id="acordeon">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <b>Tempo</b>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="accordion-body">
+          <p>Tempo total:           <b>1:37:18</b></p>
+          <p>Tempo em movimento:    <b>1:17:18</b></p>
+          <p>Tempo parado:            <b>20:00</b></p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <b>Velocidade</b>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="accordion-body">
+            <p>Velocidade média total:          <b> 15km/h</b></p>
+            <p>Velocidade média em movimento:    <b>18km/h</b></p>
+            <p>Velocidade máxima:            <b>63km/h</b></p></div>
+      </div>
+    </div>
+    <!-- separacao-->
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+            <b>Frequencia Cardíaca</b>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+          <div class="accordion-body">
+            <p>Frequencia cardíaca média:           <b>154bpm</b></p>
+            <p>Frequencia cardíaca máxima:    <b>175bpm</b></p>  </div>
+        </div>
+      </div>
+     <!-- separacao 2-->
+     <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+            <b>Calorias</b>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+          <div class="accordion-body">
+            <p>Calorias a serem gastas no dia:          <b> 2000Cal</b></p>
+            <p>Calorias gastas com a atividade:    <b>1800Cal</b></p>
+            <p>Faltam queimar:          <b>200Cal</b></p>
+        </div>
+      </div>
+     <!-- separacao 3-->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <b>Elevacao</b>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+            <p>Ganho de Elevacao:          <b> 516m</b></p>
+            <p>Perda de Elevacao:    <b>526m</b></p>
+            <p>Elevacao mínima:            <b>940m</b></p>
+            <p>Elevacao máxima:            <b>1.110m</b></p>
+      </div>
+    </div>
+  </div>
+
+  <!--FIM CORPO__________________________________________ -->
+
+  <footer>
+    <h6>Health Track © Todos os direitos reservados 2021</h6>
+  </footer>
+
+</body>
+</html>

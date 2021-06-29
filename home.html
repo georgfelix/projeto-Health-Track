@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title>Propriedades de background em CSS - Linha de Código</title>
+ 
+    <link rel="stylesheet" type="text/css"  href="./css/style.css" />
+
+    <meta name="keywords" content="corrida, bicicleta saude" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <!-- Inclusão ao suporte de ícones do Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="./js/meujava.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <title>Health Track</title>
+
+</head>
+<body>
+<!--MENU____________________________________________ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a href="/index.html">
+    <img src="/image/logo.jpg" alt="Logo Health Track" 
+  </a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/minhasatividades.html">Atividades</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/termo.html">Termo</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" id=formprocurar type="search" placeholder="procurar" aria-label="Search">
+        
+        <a class="btn btn-warning" href="/nadaencontrado.html" role="button">Procurar</a>
+      </form>
+    </div>
+  </div>
+</nav>
+  <h4>Meu dia </h4>
+  <!--CORPO____________________________________________ -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a class="image"  href="/atividade.html">
+                <img src="/image/mapa.jpg" class="d-block w-100" alt="Alimentos">
+              </a>
+              </div>
+              <div class="carousel-item">
+                <a class="image"  href="/atividade.html">
+                <img src="/image/carabike.jpg" class="d-block w-100" alt="bike">
+              </a>
+              </div>
+              <div class="carousel-item">
+                <a class="image"  href="/atividade.html">
+                <img src="/image/bikemorro.jpg" class="d-block w-100" alt="peso">
+                </a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Minha Atividade</h5>
+              <p class="card-text">Bicicleta em Araxá, MG</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Distancia: 20,05km</li>
+              <li class="list-group-item">Tempo: 1:06h</li>
+              <li class="list-group-item">Ganho Elev.: 350m</li>
+            </ul>
+            <div class="card-body"> 
+              <a href="/atividade.html" class="card-link">Ver Detalhes</a>
+              <i class="bi bi-bicycle"title="Bicicleta"></i>
+             
+            </div>
+          </div>
+    </div>
+    <!--Card 2____________________________________________-->
+
+
+
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+          <a class="image"  href="/meupeso.html">  
+          <img src="/image/peso.jpg" class="card-img-top" alt="Balanca" title="Balanca">
+          </a>  
+          <div class="card-body">
+              <h5 class="card-title">Meu Peso</h5>
+              <p class="card-text">Último peso em 25/06/2021</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Peso: 81kg</li>
+              <li class="list-group-item">Maior peso do mes: 85kg</li>
+              <li class="list-group-item">Menor peso do mes: 78kg</li>
+            </ul>
+            <div class="card-body">
+              
+              <a href="/meupeso.html" class="card-link">Ver detalhes</a>
+              <i class="bi bi-clipboard-data"title="Meu peso"></i>
+            </div>
+          </div>
+    </div>
+    <!--Card 3____________________________________________-->
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+          <a class="image"  href="/alimentacao.html">
+          <img src="/image/alimentacao.jpeg" class="card-img-top" alt="Alimentacao" title="Alimentacao">
+        </a>
+
+        <div class="card-body">
+          <h5 class="card-title">Alimentacao</h5>
+          <p class="card-text">Último cadastro em 23/04/21</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Objetivo: 1200Cal</li>
+          <li class="list-group-item">Ingerido: 600cal</li>
+          <li class="list-group-item">Pode consumir: 200cal</li>
+        </ul>
+        <div class="card-body">
+          <a href="/alimentacao.html" class="card-link">Ver detalhes</a>
+          <i class="bi bi-clipboard-check" title="Alimentacao"></i>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!--FIM CORPO__________________________________________ -->
+  
+  <br><br>
+  <footer>
+      <h6>Health Track © Todos os direitos reservados 2021</h6>
+    </footer>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,11 @@
+Health TrackEndereco na internet:https://kautza.com.br/index.htmlMeu perfil GitHub:https://github.com/georgfelixProjeto Health Track no GitHub:https://github.com/georgfelix/projeto-Health-TrackTodos os bot es te levam a algum lugar inclusive procurar e enviar e-mail.Foi usado do bootstrap:CarrouselForm ControlCardsListaAlertCollapseAcordionButtonsOffCanvasNavbarCheck & ratioPaginationForam feitas altera  es de:FontesFundoCores de fundoCores de letrasDimensionamento usando css.AlinhamentosMargens
+
+Funções Git
+
+$git config user.name
+$git config user.email
+$git status
+$git add
+$git commit -m “corrigido item tal”          (comentario)
+$gitignore                                                (ignorar arquivo)
+

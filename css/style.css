@@ -1,0 +1,131 @@
+.body{
+  background-color: white;
+}
+.fundo{
+    background-image: url("/image/corrida.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+.logo{
+    font-size: x-large;
+    color: coral;
+    text-align: center;
+}
+h1{
+  color: rgb(79, 79, 78);
+  font-size: smaller;
+}
+h2{
+  color: rgb(108, 107, 107);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+  color: rgb(5, 5, 5);
+color: white;
+text-align: center;
+}
+h6{
+color: rgb(101, 100, 100);
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h7{
+color: white;
+text-align: center;
+}
+p{
+  color: rgb(97, 97, 97);
+}
+div{
+  color: coral;
+}
+#entrar{
+float:left}
+#esqueceusenha{
+  float: right;
+  color: coral;
+}
+#cadastrar{
+float: right;}
+
+#formprocurar{
+  width: 400px; 
+}
+#termo{
+  float: right;
+color: gray;}
+
+div.card-body{
+  background-color: rgb(189, 189, 189);
+  color: black;
+}
+i {
+  font-size: 3em;
+  float:right
+}
+div.scrollmenu {
+  background-color: rgb(28, 27, 27);
+  overflow: auto;
+  white-space: nowrap;
+}
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+div.scrollmenu a:hover {
+  background-color: rgb(38, 37, 37);
+}
+form{
+  width: 60%;
+  margin: auto;
+}
+#conteudo {
+  width: auto;
+  color: black;
+  height: auto;
+}
+#navbarToggleExternalContent{
+  margin: auto;
+}
+#carouselExampleControls1{
+  width: 60%;
+  margin: auto;
+}
+#acordeon{
+  width: 60%;
+  margin: auto;
+}
+#tabelaicone{
+  width: 60%;
+  height: 50px;
+  margin: auto;
+}
+#tabela{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+#formulacontato{
+  width: 60%;
+  margin: auto;
+}
+#offcanvasExample{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+#detalhe{
+  text-align: right;
+}
+#tabelax{
+  width: 60%;
+  margin: auto;
+}

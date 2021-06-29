@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <title>Propriedades de background em CSS - Linha de Código</title>
+ 
+    <link rel="stylesheet" type="text/css"  href="./css/style.css" />
+
+    <meta name="keywords" content="corrida, bicicleta saude" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <!-- Inclusão ao suporte de ícones do Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <script src="./js/meujava.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <title>Health Track</title>
+
+</head>
+<body>
+
+<!--MENU____________________________________________ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a href="/index.html">
+      <img src="/image/logo.jpg" alt="Logo Health Track" 
+    </a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/minhasatividades.html">Atividades</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/termo.html">Termo</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" id=formprocurar type="search" placeholder="procurar" aria-label="Search">
+          
+          <a class="btn btn-warning" href="/nadaencontrado.html" role="button">Procurar</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h4>Minhas Atividades </h4>
+  <div class="container" id=conteiner>
+      <!-- Canvas -->
+      <a class="btn btn-warning" id=botaofiltrar data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+        Filtrar por
+      </a>
+      
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <p>Data</p>
+            <p>Lugar</p>
+            <p>Menor Tempo</p>
+            <p>Maior Tempo</p>
+            <p>Menor Distancia</p>
+            <p>Maior distancia</p>
+   </div>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+              Atividade
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">Corrida</a></li>
+              <li><a class="dropdown-item" href="#">Bicicleta</a></li>
+              <li><a class="dropdown-item" href="#">Natacao</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br> <br>
+
+      <!-- Cards Inicio -->
+      
+        <div class="card mb-3" style="max-width: 825px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a class="container"  href="/atividade.html">
+                <img src="/image/mapa.jpg" class="img-fluid rounded-start" alt="mapa">
+            </a>
+            </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">MTB</h5>
+                  <p class="card-text">Tempo: 1:10:16 Velocidade média: 11km/h</p>
+                  <p class="card-text">Distancia: 15,4km Altimetria: 250m</p>
+                  <p class="card-text"><small class="text-muted">15 de maio de 2021
+                    <a href="/atividade.html" type="submit" id="detalhe"class="btn btn-link">Detalhes </a> 
+                  </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!--Outro Card -->
+          <div class="card mb-3" style="max-width: 825px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a class="container"  href="/atividade.html">
+                <img src="/image/mapa2.jpg" class="img-fluid rounded-start" alt="mapa">
+            </a>
+            </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Corrida de Montanha</h5>
+                  <p class="card-text">Tempo: 1:45:16 Velocidade média: 18km/h</p>
+                  <p class="card-text">Distancia: 25,4km Altimetria: 450m</p>
+                  <p class="card-text"><small class="text-muted">15 de maio de 2021
+                    <a href="/atividade.html" type="submit" id="detalhe"class="btn btn-link">Detalhes </a> 
+                  </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!--Outro Card -->
+          <div class="card mb-3" style="max-width: 825px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a class="container"  href="/atividade.html">
+                <img src="/image/mapa3.jpg" class="img-fluid rounded-start" alt="mapa">
+            </a>
+            </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Volta de Bike</h5>
+                  <p class="card-text">Tempo: 1:45:16 Velocidade média: 18km/h</p>
+                  <p class="card-text">Distancia: 25,4km Altimetria: 450m</p>
+                  <p class="card-text"><small class="text-muted">15 de maio de 2021
+                    <a href="/atividade.html" type="submit" id="detalhe"class="btn btn-link">Detalhes </a> 
+                  </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!--Outro Card -->
+          <div class="card mb-3" style="max-width: 825px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <a class="container"  href="/atividade.html">
+                <img src="/image/mapa4.jpg" class="img-fluid rounded-start" alt="mapa">
+            </a>
+            </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Volta de Bike</h5>
+                  <p class="card-text">Tempo: 1:45:16 Velocidade média: 18km/h</p>
+                  <p class="card-text">Distancia: 25,4km Altimetria: 450m</p>
+                  <p class="card-text"><small class="text-muted">15 de maio de 2021
+                    <a href="/atividade.html" type="submit" id="detalhe"class="btn btn-link">Detalhes </a> 
+                  </small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!--PAGINATION -->
+
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+  <!--Cards fim-->
+
+  </div>
+</div>
+
+  <!--FIM CORPO__________________________________________ -->
+  
+  <footer>
+    <h6>Health Track © Todos os direitos reservados 2021</h6>
+  </footer>
+
+</body>
+</html>
